@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kelsie's To-Do-List App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/todo_list.css">
+        <script src="/js/todo_list.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>To-Do App</h1>
+            
+            <div class="new-task container box">
+            <label for="new-task"></label>
+            <input type="text" id="new-task" placeholder="Add New Task">
+                <button id="addTask">Add</button>    
+            </div>
+
+            <div class="todo-list box">
+                <h2>Incomplete Tasks</h2>
+                <ul>
+                    <li><input type="checkbox"><label>Sell old laptop</label></li>
+                    <li><input type="checkbox"><label>Close BOA bank account</label></li>
+                    <li><input type="checkbox"><label>Figure out Amazon Prime TV</label></li>
+                    <li><input type="checkbox"><label>Recycle TV</label></li>
+                    <li><input type="checkbox"><label>Hang monitor arms</label></li>
+                </ul>
+            </div><!--/todo-list-->
+
+            <div class="complete-list box">
+                <h2>Completed Tasks</h2>
+                <ul>
+                    <li>JS Challenges<button class="delete">Delete</button></li>
+                    <li>Work out<button class="delete">Delete</button></li>
+                </ul>
+
+            </div> <!--complete-list-->
+
+        </div> <!--container-->
+    </body>
+</html>
